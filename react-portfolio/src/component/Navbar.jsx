@@ -1,8 +1,8 @@
 const Navbar = () => {
     return (
         <>
-            <div className="flex w-full fit gap-[2rem] items-center justify-between bg-[#070d1b] p-[1rem]">
-                <div className="flex items-center justify-center p-[1rem] w-[5rem] h-[5rem] rounded-[50%] border-solid border-[4px] border-[#FFC848]"><img src="..\src/assets/portfolio Logo.svg" alt="logo" /></div>
+            <div className="flex w-full fit gap-[2rem] items-center justify-between bg-[#070d1b] p-[1rem] border-b-[1px] border-b-gray-700">
+                <div className="flex items-center justify-center p-[1rem] w-[5rem] h-[5rem] rounded-[50%] border-solid border-[4px] border-[#FFC848]"><img src="..\src/assets/images/portfolio Logo.svg" alt="logo" /></div>
                 <div className="flex items-center gap-[2rem]">
                     <p className="text-bold text-white cursor-pointer hover:text-[#ffc848]">Home</p>
                     <p className="text-bold text-white cursor-pointer hover:text-[#ffc848]">About</p>
