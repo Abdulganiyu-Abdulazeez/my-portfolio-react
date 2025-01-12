@@ -1,3 +1,5 @@
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
+import { faPhone } from "@fortawesome/free-solid-svg-icons"
 const Navbar = () => {
     return (
         <>
@@ -10,7 +12,7 @@ const Navbar = () => {
                     <p className="text-bold text-white cursor-pointer hover:text-[#ffc848]">Resume</p>
                     <p className="text-bold text-white cursor-pointer hover:text-[#ffc848]">Contact</p>
                     <p className="text-bold text-white cursor-pointer hover:text-[#ffc848]">|</p>
-                    <div className="flex items-center gap-[1rem] text-white"><span>phone</span><p className="text-[#ffc848]">+234 710233344</p></div>
+                    <div className="flex items-center gap-[1rem] text-white"><FontAwesomeIcon className="text-white" icon={faPhone} /><p className="text-[#ffc848]">+234 710233344</p></div>
                 </div>
             </div>
         </>
