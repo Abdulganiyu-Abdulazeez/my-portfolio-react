@@ -19,6 +19,10 @@ const Navbar = () => {
                     <p className="text-bold text-white cursor-pointer hover:text-[#ffc848]">|</p>
                     <div className="flex items-center gap-[1rem] text-white"><FontAwesomeIcon className="text-white" icon={faPhone} /><p className="text-[#ffc848]">+234 710233344</p></div>
                 </div>
+                <div className="items-center md:hidden flex">
+                    <img className="w-[1.5rem] h-[1.5rem]" src="../images/icon-hamburger.svg" alt="" />
+                    <img src="../assets/images/icon-close.svg" alt="" />
+                </div>
             </div>
         </>
     );
