@@ -11,83 +11,83 @@ const Skill = () => {
             </div>
         </div>
         <div class="flex items-center justify-between w-full md:flex-row flex-col gap-[4rem] bg-[#070d1b]">
-            <div class="w-full flex flex-col md:items-left items-center gap-[1rem] md:gap-[2rem]">
-                <h1 class="md:text-[36px] text-[30px] md:text-left text-center text-white leading-[2.5rem] pb-[1rem]">All the skills that I have in that field of work are mentioned.</h1>
-                <p class="md:text-[18px] text-[17px] md:text-left text-center text-gray-500">I have learnt Front End development with the skill of HTML, CSS, JavaScript, VueJs, Tailwind, Sass, GitHub, and so on.</p>
-                <p class="md:text-[18px] text-[17px] md:text-left text-center text-gray-500">I make graphic designs with applications such as Corel Draw and Pixel Lab for mobile graphics.</p>
+            <div className="w-full flex flex-col md:items-left items-center gap-[1rem] md:gap-[2rem]">
+                <h1 className="md:text-[36px] text-[30px] md:text-left text-center text-white leading-[2.5rem] pb-[1rem]">All the skills that I have in that field of work are mentioned.</h1>
+                <p className="md:text-[18px] text-[17px] md:text-left text-center text-gray-500">I have learnt Front End development with the skill of HTML, CSS, JavaScript, VueJs, Tailwind, Sass, GitHub, and so on.</p>
+                <p className="md:text-[18px] text-[17px] md:text-left text-center text-gray-500">I make graphic designs with applications such as Corel Draw and Pixel Lab for mobile graphics.</p>
             </div>
-            <div class="w-full flex flex-col gap-[0.5rem] bg-[#070d1b]">
-                <div class="w-full bg-[#070d1b]">
-                    <div class="flex justify-between w-full">
-                        <p class="text-white font-bold">HTML</p>
-                        <div data-aos="fade-right" data-aos-duration="1400" data-aos-offset="200" data-aos-easing="ease-in-out" class="text-[#fec544]">90%</div>
+            <div className="w-full flex flex-col gap-[0.5rem] bg-[#070d1b]">
+                <div className="w-full bg-[#070d1b]">
+                    <div className="flex justify-between w-full">
+                        <p className="text-white font-bold">HTML</p>
+                        <div data-aos="fade-right" data-aos-duration="1400" data-aos-offset="200" data-aos-easing="ease-in-out" className="text-[#fec544]">90%</div>
                     </div>
-                    <div class="w-full h-[3px] bg-gray-700 overflow-hidden">
-                        <div data-aos="fade-right" data-aos-duration="1400" data-aos-offset="200" data-aos-easing="ease-in-out" class="w-[90%] h-full bg-[#fec544]"></div>
+                    <div className="w-full h-[3px] bg-gray-700 overflow-hidden">
+                        <div data-aos="fade-right" data-aos-duration="1400" data-aos-offset="200" data-aos-easing="ease-in-out" className="w-[90%] h-full bg-[#fec544]"></div>
                     </div>
                 </div>
 
-                <div class="w-full bg-[#070d1b]">
-                    <div class="flex justify-between w-full">
-                        <p class="text-white font-bold">CSS</p>
-                        <div data-aos="fade-right" data-aos-duration="1400" data-aos-offset="200" data-aos-easing="ease-in-out" class="text-[#fec544]">80%</div>
+                <div className="w-full bg-[#070d1b]">
+                    <div className="flex justify-between w-full">
+                        <p className="text-white font-bold">CSS</p>
+                        <div data-aos="fade-right" data-aos-duration="1400" data-aos-offset="200" data-aos-easing="ease-in-out" className="text-[#fec544]">80%</div>
                     </div>
-                    <div class="w-full h-[3px] bg-gray-700 overflow-hidden">
-                        <div data-aos="fade-right" data-aos-duration="1400" data-aos-offset="200" data-aos-easing="ease-in-out" class="w-[80%] h-full bg-[#fec544]"></div>
-                    </div>
-                </div>
-                <div class="w-full bg-[#070d1b]">
-                    <div class="flex justify-between w-full">
-                        <p class="text-white font-bold">SASS</p>
-                        <div data-aos="fade-right" data-aos-duration="1400" data-aos-offset="200" data-aos-easing="ease-in-out" class="text-[#fec544]">75%</div>
-                    </div>
-                    <div class="w-full h-[3px] bg-gray-700 overflow-hidden">
-                        <div data-aos="fade-right" data-aos-duration="1400" data-aos-offset="200" data-aos-easing="ease-in-out" class="w-[75%] h-full bg-[#fec544]"></div>
+                    <div className="w-full h-[3px] bg-gray-700 overflow-hidden">
+                        <div data-aos="fade-right" data-aos-duration="1400" data-aos-offset="200" data-aos-easing="ease-in-out" className="w-[80%] h-full bg-[#fec544]"></div>
                     </div>
                 </div>
-                <div class="w-full bg-[#070d1b]">
-                    <div class="flex justify-between w-full">
-                        <p class="text-white font-bold">LESS</p>
-                        <div data-aos="fade-right" data-aos-duration="1400" data-aos-offset="200" data-aos-easing="ease-in-out" class="text-[#fec544]">60%</div>
+                <div className="w-full bg-[#070d1b]">
+                    <div className="flex justify-between w-full">
+                        <p className="text-white font-bold">SASS</p>
+                        <div data-aos="fade-right" data-aos-duration="1400" data-aos-offset="200" data-aos-easing="ease-in-out" className="text-[#fec544]">75%</div>
                     </div>
-                    <div class="w-full h-[3px] bg-gray-700 overflow-hidden">
-                        <div data-aos="fade-right" data-aos-duration="1400" data-aos-offset="200" data-aos-easing="ease-in-out" class="w-[60%] h-full bg-[#fec544]"></div>
-                    </div>
-                </div>
-                <div class="w-full bg-[#070d1b]">
-                    <div class="flex justify-between w-full">
-                        <p class="text-white font-bold">TAILWIND</p>
-                        <div data-aos="fade-right" data-aos-duration="1400" data-aos-offset="200" data-aos-easing="ease-in-out" class="text-[#fec544]">85%</div>
-                    </div>
-                    <div class="w-full h-[3px] bg-gray-700 overflow-hidden">
-                        <div data-aos="fade-right" data-aos-duration="1400" data-aos-offset="200" data-aos-easing="ease-in-out" class="w-[85%] h-full bg-[#fec544]"></div>
+                    <div className="w-full h-[3px] bg-gray-700 overflow-hidden">
+                        <div data-aos="fade-right" data-aos-duration="1400" data-aos-offset="200" data-aos-easing="ease-in-out" className="w-[75%] h-full bg-[#fec544]"></div>
                     </div>
                 </div>
-                <div class="w-full bg-[#070d1b]">
-                    <div class="flex justify-between w-full">
-                        <p class="text-white font-bold">JAVASCRIPT</p>
-                        <div data-aos="fade-right" data-aos-duration="1400" data-aos-offset="200" data-aos-easing="ease-in-out" class="text-[#fec544]">75%</div>
+                <div className="w-full bg-[#070d1b]">
+                    <div className="flex justify-between w-full">
+                        <p className="text-white font-bold">LESS</p>
+                        <div data-aos="fade-right" data-aos-duration="1400" data-aos-offset="200" data-aos-easing="ease-in-out" className="text-[#fec544]">60%</div>
                     </div>
-                    <div class="w-full h-[3px] bg-gray-700 overflow-hidden">
-                        <div data-aos="fade-right" data-aos-duration="1400" data-aos-offset="200" data-aos-easing="ease-in-out" class="w-[75%] h-full bg-[#fec544]"></div>
-                    </div>
-                </div>
-                <div class="w-full bg-[#070d1b]">
-                    <div class="flex justify-between w-full">
-                        <p class="text-white font-bold">JQUERY</p>
-                        <div data-aos="fade-right" data-aos-duration="1400" data-aos-offset="200" data-aos-easing="ease-in-out" class="text-[#fec544]">25%</div>
-                    </div>
-                    <div class="w-full h-[3px] bg-gray-700 overflow-hidden">
-                        <div data-aos="fade-right" data-aos-duration="1400" data-aos-offset="200" data-aos-easing="ease-in-out" class="w-[25%] h-full bg-[#fec544]"></div>
+                    <div className="w-full h-[3px] bg-gray-700 overflow-hidden">
+                        <div data-aos="fade-right" data-aos-duration="1400" data-aos-offset="200" data-aos-easing="ease-in-out" className="w-[60%] h-full bg-[#fec544]"></div>
                     </div>
                 </div>
-                <div class="w-full bg-[#070d1b]">
-                    <div class="flex justify-between w-full">
-                        <p class="text-white font-bold">VUEJS</p>
-                        <div data-aos="fade-right" data-aos-duration="1400" data-aos-offset="200" data-aos-easing="ease-in-out" class="text-[#fec544]">70%</div>
+                <div className="w-full bg-[#070d1b]">
+                    <div className="flex justify-between w-full">
+                        <p className="text-white font-bold">TAILWIND</p>
+                        <div data-aos="fade-right" data-aos-duration="1400" data-aos-offset="200" data-aos-easing="ease-in-out" className="text-[#fec544]">85%</div>
                     </div>
-                    <div class="w-full h-[3px] bg-gray-700 overflow-hidden">
-                        <div data-aos="fade-right" data-aos-duration="1400" data-aos-offset="200" data-aos-easing="ease-in-out" class="w-[70%] h-full bg-[#fec544]"></div>
+                    <div className="w-full h-[3px] bg-gray-700 overflow-hidden">
+                        <div data-aos="fade-right" data-aos-duration="1400" data-aos-offset="200" data-aos-easing="ease-in-out" className="w-[85%] h-full bg-[#fec544]"></div>
+                    </div>
+                </div>
+                <div className="w-full bg-[#070d1b]">
+                    <div className="flex justify-between w-full">
+                        <p className="text-white font-bold">JAVASCRIPT</p>
+                        <div data-aos="fade-right" data-aos-duration="1400" data-aos-offset="200" data-aos-easing="ease-in-out" className="text-[#fec544]">75%</div>
+                    </div>
+                    <div className="w-full h-[3px] bg-gray-700 overflow-hidden">
+                        <div data-aos="fade-right" data-aos-duration="1400" data-aos-offset="200" data-aos-easing="ease-in-out" className="w-[75%] h-full bg-[#fec544]"></div>
+                    </div>
+                </div>
+                <div className="w-full bg-[#070d1b]">
+                    <div className="flex justify-between w-full">
+                        <p className="text-white font-bold">JQUERY</p>
+                        <div data-aos="fade-right" data-aos-duration="1400" data-aos-offset="200" data-aos-easing="ease-in-out" className="text-[#fec544]">25%</div>
+                    </div>
+                    <div className="w-full h-[3px] bg-gray-700 overflow-hidden">
+                        <div data-aos="fade-right" data-aos-duration="1400" data-aos-offset="200" data-aos-easing="ease-in-out" className="w-[25%] h-full bg-[#fec544]"></div>
+                    </div>
+                </div>
+                <div className="w-full bg-[#070d1b]">
+                    <div className="flex justify-between w-full">
+                        <p className="text-white font-bold">VUEJS</p>
+                        <div data-aos="fade-right" data-aos-duration="1400" data-aos-offset="200" data-aos-easing="ease-in-out" className="text-[#fec544]">70%</div>
+                    </div>
+                    <div className="w-full h-[3px] bg-gray-700 overflow-hidden">
+                        <div data-aos="fade-right" data-aos-duration="1400" data-aos-offset="200" data-aos-easing="ease-in-out" className="w-[70%] h-full bg-[#fec544]"></div>
                     </div>
                 </div>
             </div>
