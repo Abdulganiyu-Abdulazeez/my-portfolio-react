@@ -1,6 +1,6 @@
 const Skill = () => {
     return ( <>
-    <div class="w-full pt-[2rem] md:p-[2rem] p-[1rem] bg-[#070d1b]">
+    <div id="skill" class="w-full pt-[2rem] md:p-[2rem] p-[1rem] bg-[#070d1b]">
         <div data-aos="fade-up" data-aos-duration="800" data-aos-offset="200" data-aos-easing="ease-in-out" class="mx-auto md:w-[33rem]  w-full h-fit z-1 relative top-0">
             <h1 class="text-center md:text-[102px] text-[55px] text-[#101624] w-full font-bold h-full">MY SKILL</h1>
             <div class="absolute inset-0 mx-auto z-2 md:mt-[2.3rem] mt-[1.3rem]">
