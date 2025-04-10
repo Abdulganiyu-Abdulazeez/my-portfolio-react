@@ -11,18 +11,18 @@ const About = () => {
             </div>
         </div>
         <div className="mt-[2rem] w-full flex items-center justify-between gap-[2rem] md:gap-0 md:flex-row flex-col">
-            <img className="w-full md:w-[50%] h-[100vh] z-1 static" src="..\src/assets/images/blog.png" alt="" />
-            <div className="w-full md:w-[45%] flex flex-col gap-[1.2rem]">
-                <h1 className="text-[36px] text-white leading-[2.5rem]">Hi There! I'm Abdulganiyu Abdulazeez</h1>
-                <h2 className="text-[25px] text-[#fec544]">Website Developer</h2>
-                <p className="text-gray-400 text-[18px]">I am website developer with strong focus in front end development. Website development create user interface for website as it makes the website interactive.</p>
-                <div className="flex items-center md:gap-[3rem] gap-[2rem] text-[12px] md:text-[16px] text-gray-400"><div className="w-[20%]">Birthday</div><p className="flex gap-[1rem] items-center w-[80%]"><span className="w-[10%]">:</span><span className="w-[90%]">February 20, 2006</span></p></div>
-                <div className="flex items-center md:gap-[3rem] gap-[2rem] text-[12px] md:text-[16px] text-gray-400"><div className="w-[20%]">Phone</div><p className="flex gap-[1rem] items-center w-[80%]"><span className="w-[10%]">:</span><span className="w-[90%]">+234 701-023-3344</span></p></div>
-                <div className="flex items-center md:gap-[3rem] gap-[2rem] text-[12px] md:text-[16px] text-gray-400"><div className="w-[20%]">Email</div><p className="flex gap-[1rem] items-center w-[80%]"><span className="w-[10%]">:</span><span className="w-[90%]">abdulganiyuabdulazeez 20@gmail.com</span></p></div>
-                <div className="flex items-center md:gap-[3rem] gap-[2rem] text-[12px] md:text-[16px] text-gray-400"><div className="w-[20%]">Address</div><p className="flex gap-[1rem] items-center w-[80%]"><span className="w-[10%]">:</span><span className="w-[90%]">37, Adedosu Street, Lagos, Nigeria</span></p></div>
-                <div className="flex items-center md:gap-[3rem] gap-[2rem] text-[12px] md:text-[16px] text-gray-400"><div className="w-[20%]">Language</div><p className="flex gap-[1rem] items-center w-[80%]"><span className="w-[10%]">:</span><span className="w-[90%]">English</span></p></div>
-                <div className="flex items-center md:gap-[3rem] gap-[2rem] text-[12px] md:text-[16px] text-gray-400"><div className="w-[20%]">Freelance</div><p className="flex gap-[1rem] items-center w-[80%]"><span className="w-[10%]">:</span><span className="w-[90%]">Available</span></p></div>
-                <a href="../assets/images/My CV.pdf" className="bg-[#fec544] px-[4rem] py-[0.8rem] w-fit rounded-[24px] mt-[2rem]">Download Cv</a>
+            <img class="w-full md:w-[50%] md:h-[100vh] h-[60vh] z-1 static" src="..\src/assets/images/blog.png" alt="" />
+            <div class="w-full md:w-[45%] flex flex-col gap-[1.2rem]">
+                <h1 class="lg:text-[36px] md:text-[28px] text-[26px] text-white leading-[2.5rem]">Hi There! I'm Abdulganiyu Abdulazeez</h1>
+                <h2 class="lg:text-[25px] text-[20px] text-[#fec544]">Website Developer</h2>
+                <p class="text-gray-400 lg:text-[18px] text-[15px]">I am website developer with strong focus in front end development. Website development create user interface for website as it makes the website interactive.</p>
+                <div class="flex items-center md:gap-[3rem] gap-[2rem] text-[12px] lg:text-[16px] text-gray-400"><div class="w-[20%]">Birthday</div><p class="flex gap-[1rem] items-center w-[80%]"><span class="w-[10%]">:</span><span class="w-[90%]">February 20, 2006</span></p></div>
+                <div class="flex items-center md:gap-[3rem] gap-[2rem] text-[12px] lg:text-[16px] text-gray-400"><div class="w-[20%]">Phone</div><p class="flex gap-[1rem] items-center w-[80%]"><span class="w-[10%]">:</span><span class="w-[90%]">+234 701-023-3344</span></p></div>
+                <div class="flex items-center md:gap-[3rem] gap-[2rem] text-[12px] lg:text-[16px] text-gray-400"><div class="w-[20%]">Email</div><p class="flex gap-[1rem] items-center w-[80%]"><span class="w-[10%]">:</span><span class="w-[90%]">abdulganiyuabdulazeez 20@gmail.com</span></p></div>
+                <div class="flex items-center md:gap-[3rem] gap-[2rem] text-[12px] lg:text-[16px] text-gray-400"><div class="w-[20%]">Address</div><p class="flex gap-[1rem] items-center w-[80%]"><span class="w-[10%]">:</span><span class="w-[90%]">37, Adedosu Street, Lagos, Nigeria</span></p></div>
+                <div class="flex items-center md:gap-[3rem] gap-[2rem] text-[12px] lg:text-[16px] text-gray-400"><div class="w-[20%]">Language</div><p class="flex gap-[1rem] items-center w-[80%]"><span class="w-[10%]">:</span><span class="w-[90%]">English</span></p></div>
+                <div class="flex items-center md:gap-[3rem] gap-[2rem] text-[12px] lg:text-[16px] text-gray-400"><div class="w-[20%]">Freelance</div><p class="flex gap-[1rem] items-center w-[80%]"><span class="w-[10%]">:</span><span class="w-[90%]">Available</span></p></div>
+                <a href="../assets/images/My CV.pdf" class="bg-[#fec544] px-[4rem] py-[0.8rem] w-fit rounded-[24px] mt-[2rem]">Download Cv</a>
             </div>
         </div>
     </div>
