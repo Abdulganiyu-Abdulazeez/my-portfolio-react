@@ -4,7 +4,7 @@ import { faPhone, faLocation, faMessage } from "@fortawesome/free-solid-svg-icon
 const Contact = () => {
     return ( 
         <>
-            <div className="w-full p-[1rem] bg-[#070d1b]">
+            <div id="contact" className="w-full p-[1rem] bg-[#070d1b]">
                 <div data-aos="fade-up" data-aos-duration="800" data-aos-offset="200" data-aos-easing="ease-in-out" className="mx-auto md:w-[45rem] w-full h-fit z-1 relative top-0">
                     <h1 className="text-center flex gap-[2rem] md:text-[102px] text-[55px] text-[#101624] w-full font-bold h-full">CONTACT<span className="md:block hidden"> ME</span></h1>
                     <div className="absolute inset-0 mx-auto z-2 md:mt-[2.3rem] mt-[1.3rem]">
