@@ -60,7 +60,7 @@ const Contact = () => {
                                     <a href="https://www.twitter.com/Abdulaz94349364" target="_blank"><FontAwesomeIcon className="cursor-pointer text-white text-[25px] font-bold text-gray-500 hover:text-[#fec544] transition-eas-in-out duration-400s rounded-[50%] border-[1px] border-solid border-gray-700 hover:border-[#fec544] flex items-center justify-center p-[1rem]" icon={faTwitter} /></a>
                                 </div>
                                 <div className="">
-                                    <a href="https://www.instagram.com/abdulganiyu4252" target="_blank"><FontAwesomeIcon className="cursor-pointer text-white text-[25px] font-bold text-gray-500 hover:text-[#fec544] transition-eas-in-out duration-400s rounded-[50%] border-[1px] border-solid border-gray-700 hover:border-[#fec544] flex items-center justify-center p-[1rem]" icon={faLinkedin} /></a>
+                                    <a href="https://linkedin.com/in/abdulazeez-abdulganiyu-pactware" target="_blank"><FontAwesomeIcon className="cursor-pointer text-white text-[25px] font-bold text-gray-500 hover:text-[#fec544] transition-eas-in-out duration-400s rounded-[50%] border-[1px] border-solid border-gray-700 hover:border-[#fec544] flex items-center justify-center p-[1rem]" icon={faLinkedin} /></a>
                                 </div>
                             </div>
                         </div>
