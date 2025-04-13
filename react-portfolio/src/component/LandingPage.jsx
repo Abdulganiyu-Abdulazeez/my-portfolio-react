@@ -1,6 +1,6 @@
 import Navbar from "./Navbar";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faGithub, faTwitter, faWhatsapp, faInstagram } from "@fortawesome/free-brands-svg-icons";
+import { faGithub, faTwitter, faWhatsapp, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 const LandingPage = () => {
     return (
         <>
@@ -16,7 +16,7 @@ const LandingPage = () => {
                             <a href="https://www.twitter.com/Abdulaz94349364" target="_blank"><FontAwesomeIcon className="cursor-pointer text-white text-[25px] font-bold text-gray-500 rounded-[50%] border-[1px] border-solid border-gray-700 flex items-center justify-center md:p-[1rem] p-[0.75rem]" icon={faTwitter} /></a>
                             <a href="https://api.whatsapp.com/send?phone=2347010233344" target="_blank"><FontAwesomeIcon className="cursor-pointer text-white text-[25px] font-bold text-gray-500 rounded-[50%] border-[1px] border-solid border-gray-700 flex items-center justify-center md:p-[1rem] p-[0.75rem]" icon={faWhatsapp} /></a>
                             <a href="https://github.com/Abdulganiyu-Abdulazeez" target="_blank"><FontAwesomeIcon className="cursor-pointer text-white text-[25px] font-bold text-gray-500 rounded-[50%] border-[1px] border-solid border-gray-700 flex items-center justify-center md:p-[1rem] p-[0.75rem]" icon={faGithub} /></a>
-                            <a href="https://www.instagram.com/abdulganiyu4252/" target="_blank"><FontAwesomeIcon className="cursor-pointer text-white text-[25px] font-bold text-gray-500 rounded-[50%] border-[1px] border-solid border-gray-700 flex items-center justify-center md:p-[1rem] p-[0.75rem]" icon={faInstagram} /></a>
+                            <a href="https://linkedin.com/in/abdulazeez-abdulganiyu-pactware/" target="_blank"><FontAwesomeIcon className="cursor-pointer text-white text-[25px] font-bold text-gray-500 rounded-[50%] border-[1px] border-solid border-gray-700 flex items-center justify-center md:p-[1rem] p-[0.75rem]" icon={faLinkedin} /></a>
                         </div>
                     </div>
                     <div className="md:relative md:w-[50%] w-full h-screen">
