@@ -1,19 +1,19 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faGithub, faTwitter, faWhatsapp, faInstagram} from "@fortawesome/free-brands-svg-icons";
+import { faGithub, faTwitter, faWhatsapp, faLinkedin} from "@fortawesome/free-brands-svg-icons";
 import { faPhone, faLocation, faMessage } from "@fortawesome/free-solid-svg-icons"
 const Contact = () => {
     return ( 
         <>
-            <div className="w-full p-[1rem] bg-[#070d1b]">
-        <div className="mx-auto md:w-[35rem] w-full h-fit  relative top-0 z-1">
-            <h1 className="text-center md:text-[102px] text-[55px] text-[#101624] w-full font-bold h-full">CONTACT ME</h1>
-            <div className="absolute inset-0 mx-auto z-2 md:mt-[2.3rem] mt-[1.3rem]">
-                <div className="w-fit mx-auto flex flex-col md:gap-[0.5rem] gap-[0.2rem] items-center">
-                    <h1 className="md:text-[25px] text-[15px] text-[#fec544] font-bold">CONTACT ME</h1>
-                    <div className="w-[10rem] h-[3px] bg-[#3f4551]"><p className="mx-auto w-[5rem] h-full bg-[#FFC848]"></p></div>
+            <div id="contact" className="w-full p-[1rem] bg-[#070d1b]">
+                <div className="mx-auto md:w-[35rem] w-full h-fit  relative top-0 z-1">
+                    <h1 className="text-center md:text-[102px] text-[55px] text-[#101624] w-full font-bold h-full">CONTACT</h1>
+                    <div className="absolute inset-0 mx-auto z-2 md:mt-[2.3rem] mt-[1.3rem]">
+                        <div className="w-fit mx-auto flex flex-col md:gap-[0.5rem] gap-[0.2rem] items-center">
+                            <h1 className="md:text-[25px] text-[15px] text-[#fec544] font-bold">CONTACT</h1>
+                            <div className="w-[10rem] h-[3px] bg-[#3f4551]"><p class="mx-auto w-[5rem] h-full bg-[#FFC848]"></p></div>
+                        </div>
+                    </div>
                 </div>
-            </div>
-        </div>
                 <div className="w-full flex md:flex-row flex-col md:items-center items-left gap-[2rem] p-[1rem]">
                     <div className="md:w-[50%] w-full flex flex-col gap-[2rem]">
                         <h3 className="text-[30px] text-white">Just Say Hello</h3>
@@ -60,7 +60,7 @@ const Contact = () => {
                                     <a href="https://www.twitter.com/Abdulaz94349364" target="_blank"><FontAwesomeIcon className="cursor-pointer text-white text-[25px] font-bold text-gray-500 hover:text-[#fec544] transition-eas-in-out duration-400s rounded-[50%] border-[1px] border-solid border-gray-700 hover:border-[#fec544] flex items-center justify-center p-[1rem]" icon={faTwitter} /></a>
                                 </div>
                                 <div className="">
-                                    <a href="https://www.instagram.com/abdulganiyu4252" target="_blank"><FontAwesomeIcon className="cursor-pointer text-white text-[25px] font-bold text-gray-500 hover:text-[#fec544] transition-eas-in-out duration-400s rounded-[50%] border-[1px] border-solid border-gray-700 hover:border-[#fec544] flex items-center justify-center p-[1rem]" icon={faInstagram} /></a>
+                                    <a href="https://linkedin.com/in/abdulazeez-abdulganiyu-pactware" target="_blank"><FontAwesomeIcon className="cursor-pointer text-white text-[25px] font-bold text-gray-500 hover:text-[#fec544] transition-eas-in-out duration-400s rounded-[50%] border-[1px] border-solid border-gray-700 hover:border-[#fec544] flex items-center justify-center p-[1rem]" icon={faLinkedin} /></a>
                                 </div>
                             </div>
                         </div>

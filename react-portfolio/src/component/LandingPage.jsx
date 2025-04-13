@@ -20,7 +20,7 @@ const LandingPage = () => {
                         </div>
                     </div>
                     <div className="md:relative md:w-[50%] w-full h-screen">
-                        <img className="right-0 md:absolute static w-full h-full md:flex hidden" src="../images/me.png" alt="" />
+                        <img className="right-0 md:absolute static w-full h-full md:flex hidden" src="./images/me.png" alt="" />
                     </div>
                 </div>
             </div>
