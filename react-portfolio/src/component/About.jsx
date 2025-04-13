@@ -11,7 +11,7 @@ const About = () => {
             </div>
         </div>
         <div className="mt-[2rem] w-full flex items-center justify-between gap-[2rem] md:gap-0 md:flex-row flex-col">
-            <img class="w-full md:w-[50%] md:h-[100vh] h-[60vh] z-1 static" src="..\src/assets/images/blog.png" alt="" />
+            <img class="w-full md:w-[50%] md:h-[100vh] h-[60vh] z-1 static" src="../images/blog.png" alt="" />
             <div class="w-full md:w-[45%] flex flex-col gap-[1.2rem]">
                 <h1 class="lg:text-[36px] md:text-[28px] text-[26px] text-white leading-[2.5rem]">Hi There! I'm Abdulganiyu Abdulazeez</h1>
                 <h2 class="lg:text-[25px] text-[20px] text-[#fec544]">Website Developer</h2>
