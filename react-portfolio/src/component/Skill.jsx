@@ -11,8 +11,8 @@ const Skill = () => {
             </div>
         </div>
         <div class="flex items-center justify-between w-full md:flex-row flex-col gap-[4rem] bg-[#070d1b]">
-            <div className="w-full flex flex-col md:items-left gap-[1rem]">
-                <h1 className="md:text-[36px] text-[30px] md:text-left text-white leading-[2.5rem] pb-[1rem]">THE CORE SKILL I POSSESS</h1>
+            <div className="w-full flex flex-col md:items-left items-center gap-[1rem]">
+                <h1 className="md:text-[36px] text-[25px] md:text-left text-center text-white leading-[2.5rem] pt-[1rem]">THE CORE SKILL I POSSESS</h1>
                 <p className="md:text-[18px] text-[17px] md:text-left text-center text-gray-500">I’ve learned Front-End development, gaining skills in HTML, CSS, JavaScript, VueJs, ReactJs, Tailwind, Sass, GitHub, and a lot more. Over time, I’ve gotten comfortable with these technologies and have been able to build responsive, interactive websites.</p>
                 <p className="md:text-[18px] text-[17px] md:text-left text-center text-gray-500">In addition to Front-End development, I’m proficient in Microsoft Office Suite for tasks like documentation and presentations. I also do graphic design using Canva and have some experience with UI/UX design in Figma. I offer free education consultancy and spend my free time teaching mathematics, helping others understand complex concepts in an easy-to-follow way.</p>
             </div>
