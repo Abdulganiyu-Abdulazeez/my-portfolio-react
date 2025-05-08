@@ -1,8 +1,7 @@
 import { useState, useEffect } from "react";
 
 const Projects = () => {
-    const show = () => {
-        const content = [
+        const blog = [
             {
                 id: 1,
                 title: "ICTopia Website",
@@ -27,22 +26,25 @@ const Projects = () => {
             {
                 id: 4,
                 title: "Rock Paper Scissors",
-                image: "./images/adviceGenerator.png",
+                image: "./images/rock-paper-scissor.png",
                 link:"",
                 description: "A game oriented website where you can play Rock Paper Scissors, it gives you access to the games rule before you start and records your scores"
             },
             {
                 id: 5,
                 title: "DrumKit",
-                image: "./images/adviceGenerator.png",
+                image: "./images/drumkit.png",
                 link:"",
                 description: "A website that is both keyboard and text sensitive where you can drum and make several beats with your device"
             }
         ]
-    }
+        useState(
+            console.log(blog)
+        )
+        
     return (
         <>
-        <div id="projects" className="bg-[#0a101e] w-full p-[1rem] md:p-[2rem]">
+        <div id="projects" className="bg-[#0a101e] w-full p-[1rem] md:p-[2rem] overflow-x-hidden">
             <div className="mx-auto md:w-[35rem] w-full h-fit  relative top-0 z-1">
                 <h1 className="text-center md:text-[102px] text-[55px] text-[#101624] w-full font-bold h-full">PROJECTS</h1>
                 <div className="absolute inset-0 mx-auto z-2 md:mt-[2.3rem] mt-[1.3rem]">
@@ -52,21 +54,18 @@ const Projects = () => {
                     </div>
                 </div>
             </div>
-            <div  className="flex items-center overflow-hidden w-full h-[50%]">
-            {
-                content.map((content) => (
-                    <div className={`w-full h-full bg-[url(${content.image})] hover:bg-[#0a101e]`}>
-                        {/* <img className="hover:hidden flex" src={content.image} alt="" /> */}
-                        <div className="none hover:visible flex items-center gap-[2rem] flex-cols">
-                            <h1>{content.title}</h1>
-                            <p>{content.description}</p>
-                            <a href="#" className="rounded-full flex items-center justify-center w-[2rem] h-[2rem] border-[3px] border-white absolute top-[50%] left-[50%] transfor translate-y-[-50%] translate-x-[-50%]"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24"><path fill="#ffffff" d="M11 13H6q-.425 0-.712-.288T5 12t.288-.712T6 11h5V6q0-.425.288-.712T12 5t.713.288T13 6v5h5q.425 0 .713.288T19 12t-.288.713T18 13h-5v5q0 .425-.288.713T12 19t-.712-.288T11 18z"/></svg></a>
-                        </div>
+            <div className="contain mt-[2rem] flex items-center gap-[1rem] md:w-[250vw] w-[500vw] h-[40vh]">
+            {blog.map((contents) => (
+                <div key={contents.id} className="blog md:w-[50vw] w-full h-full bg-white cursor-pointer ">
+                    <img className="flex w-full h-full" src={contents.image} alt="" />
+                    <div className="info items-center gap-[2rem] flex-col justify-center text-center p-[2rem]">
+                        <h1 className="text-[25px] text-[#0a101e]">{contents.title}</h1>
+                        <p className="text-[#0a101e] text-[20px]">{contents.description}</p>
+                        <a href="#" className="rounded-full flex items-center justify-center w-[2rem] h-[2rem] border-[3px] border-[#0a101e]"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24"><path fill="#0a101e" d="M11 13H6q-.425 0-.712-.288T5 12t.288-.712T6 11h5V6q0-.425.288-.712T12 5t.713.288T13 6v5h5q.425 0 .713.288T19 12t-.288.713T18 13h-5v5q0 .425-.288.713T12 19t-.712-.288T11 18z"/></svg></a>
                     </div>
-                ))
-            }
+                </div>
+            ))}
             </div>
-            
         </div>
         </>
     );
