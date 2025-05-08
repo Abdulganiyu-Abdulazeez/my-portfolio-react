@@ -6,7 +6,7 @@ const LandingPage = () => {
         <>
             <div className="w-full h-full overflow-x-hidden">
                 <Navbar />
-                <div id="home" className="flex items-center w-full bg-[#070d1b] relative">
+                <div id="home" className="flex items-center w-full bg-[#070d1b]">
                     <div className="md:w-[50%] w-full h-screen flex flex-col md:items-start items-center gap-[1rem] py-[4rem] pl-[2rem] md:pr-0 pr-[2rem]">
                         <h1 className="font-bold text-[30px] text-[#ffc848]">Hello, I am</h1>
                         <div className="font-bold lg:text-[90px] md:text-[70Ppx] text-[50px] lg:leading-[7rem] leading-[4rem] text-white md:text-left text-center">Abdulganiyu Abdulazeez</div>
