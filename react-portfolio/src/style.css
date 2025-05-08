@@ -1,0 +1,68 @@
+.blog:hover img {
+    display: none;
+}.info {
+    display: none;
+}
+.blog:hover .info {
+    display: flex;
+}
+/* .blog:hover {
+    position: absolute;
+    transform: rotateX('180deg');
+} */
+.contain {
+    position: relative;
+    animation-name: anime;
+    animation-delay: 3s;
+    animation-duration: 20s;
+    animation-timing-function: ease;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+@keyframes anime {
+    0% {
+        top: 0;
+        left: -30vw;
+    }
+    25% {
+        top: 0;
+        left: -60vw;
+    }
+    50% {
+        top: 0;
+        left: -90vw;
+    }
+    75% {
+        top: 0;
+        left: -120vw;
+    }
+    100% {
+        top: 0;
+        left: -150vw;
+    }
+}
+
+@media (max-width: 425px) {
+    @keyframes anime {
+    0% {
+        top: 0;
+        left: 0vw;
+    }
+    25% {
+        top: 0;
+        left: -100vw;
+    }
+    50% {
+       top: 0;
+        left: -200vw;
+    }
+    75% {
+        top: 0;
+        left: -300vw;
+    }
+    100% {
+        top: 0;
+        left: -400vw;
+    }
+}
+}
