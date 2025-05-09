@@ -5,7 +5,7 @@ const Contact = () => {
     return ( 
         <>
             <div id="contact" className="w-full p-[1rem] bg-[#070d1b]">
-                <div className="mx-auto md:w-[35rem] w-full h-fit  relative top-0 z-1">
+                <div className="mx-auto md:w-[35rem] w-full h-fit  relative top-0 z-1" data-aos="fade-up" data-aos-duration="1400" data-aos-offset="200" data-aos-easing="ease-in-out">
                     <h1 className="text-center md:text-[102px] text-[55px] text-[#101624] w-full font-bold h-full">CONTACT</h1>
                     <div className="absolute inset-0 mx-auto z-2 md:mt-[2.3rem] mt-[1.3rem]">
                         <div className="w-fit mx-auto flex flex-col md:gap-[0.5rem] gap-[0.2rem] items-center">
@@ -15,7 +15,7 @@ const Contact = () => {
                     </div>
                 </div>
                 <div className="w-full flex md:flex-row flex-col md:items-center items-left gap-[2rem] p-[1rem]">
-                    <div className="md:w-[50%] w-full flex flex-col gap-[2rem]">
+                    <div className="md:w-[50%] w-full flex flex-col gap-[2rem]" data-aos="fade-right" data-aos-duration="1400" data-aos-offset="200" data-aos-easing="ease-in-out">
                         <h3 className="text-[30px] text-white">Just Say Hello</h3>
                         <input className="p-[1rem] bg-gray-900 rounded-[10px] border-[1px] border-gray-700 text-gray-300 outline-none" type="text" placeholder="Your Name" />
                         <input className="p-[1rem] bg-gray-900 rounded-[10px] border-[1px] border-gray-700 text-gray-300 outline-none" type="text" placeholder="Your Email" />
@@ -23,7 +23,7 @@ const Contact = () => {
                         <textarea className="p-[1rem] bg-gray-900 rounded-[10px] border-[1px] border-gray-700 text-gray-300 outline-none" name="" id="" cols="20" rows="5" placeholder="Your Message"></textarea>
                         <button className="rounded-[30px] py-[1rem] px-[3rem] bg-[#fec544] w-fit">Send Message</button>
                     </div>
-                    <div className="md:w-[50%] w-full flex flex-col gap-[2rem]">
+                    <div className="md:w-[50%] w-full flex flex-col gap-[2rem]" data-aos="fade-left" data-aos-duration="1400" data-aos-offset="200" data-aos-easing="ease-in-out">
                         <h3 className="text-[30px] text-white">Contact Info</h3>
                         <p className="text-white text-[18px]">Want to meet me? You can connect with me for collaboration, Hire, tutoring and so on through this media stated below</p>
                         <div className="flex items-center gap-[1rem] info">

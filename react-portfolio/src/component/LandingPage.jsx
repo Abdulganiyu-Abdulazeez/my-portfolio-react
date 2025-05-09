@@ -6,7 +6,7 @@ const LandingPage = () => {
         <>
             <div className="w-full h-full overflow-x-hidden">
                 <Navbar />
-                <div id="home" className="flex items-center w-full bg-[#070d1b]">
+                <div id="home" className="flex items-center w-full bg-[#070d1b] md:relative static">
                     <div className="md:w-[50%] w-full h-screen flex flex-col md:items-start items-center gap-[1rem] py-[4rem] pl-[2rem] md:pr-0 pr-[2rem]">
                         <h1 className="font-bold text-[30px] text-[#ffc848]">Hello, I am</h1>
                         <div className="font-bold lg:text-[90px] md:text-[70Ppx] text-[50px] lg:leading-[7rem] leading-[4rem] text-white md:text-left text-center">Abdulganiyu Abdulazeez</div>
@@ -19,7 +19,7 @@ const LandingPage = () => {
                             <a href="https://linkedin.com/in/abdulazeez-abdulganiyu-pactware" target="_blank"><FontAwesomeIcon className="cursor-pointer text-white text-[25px] font-bold text-gray-500 rounded-[50%] border-[1px] border-solid border-gray-700 flex items-center justify-center md:p-[1rem] p-[0.75rem]" icon={faLinkedin} /></a>
                         </div>
                     </div>
-                    <div className="md:relative md:w-[50%] w-full h-screen">
+                    <div className="md:relative md:w-[50%] w-full h-screen" data-aos="fade-left" data-aos-duration="1400" data-aos-offset="200" data-aos-easing="ease-in-out">
                         <img className="right-0 md:absolute static w-full h-full md:flex hidden" src="./images/me.png" alt="" />
                     </div>
                 </div>

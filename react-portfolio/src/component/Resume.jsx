@@ -19,7 +19,7 @@ const Resume = () => {
                 </div>
                 <div className="pt-[2rem] w-full flex justify-start items-start gap-[2rem]">
                     <div className="pt-[0rem] w-full flex flex-col gap-[2rem]">
-                        <div className="switch flex items-top gap-[1rem] w-full h-full">
+                        <div className="switch flex items-top gap-[1rem] w-full h-full" data-aos="fade-down" data-aos-duration="1400" data-aos-offset="200" data-aos-easing="ease-in-out">
                             <div className="flex items-center flex-col">
                                 <p className="bulb w-[12px] h-[12px] bg-[#101624] rounded-[50%] border-[0.5px] border-gray-700 border-solid hover:bg-[#fec544] transition-all duration-200"></p>
                                 <div className=" w-[2px] md:h-[14.5rem] h-[17rem] bg-[#101624]"></div>
@@ -30,7 +30,7 @@ const Resume = () => {
                                 <div className="text-gray-500 pt-[1rem]">DervacHub is a multi-tech company that is based on software development they also take tech tutoring on courses like fornt end development, full stack devopment, computer fundamentals and so on</div>
                             </div>
                         </div>
-                        <div className="switch flex items-top gap-[1rem] w-full h-full">
+                        <div className="switch flex items-top gap-[1rem] w-full h-full" data-aos="fade-right" data-aos-duration="1400" data-aos-offset="200" data-aos-easing="ease-in-out">
                             <div className="flex items-center flex-col">
                                 <p className="bulb w-[12px] h-[12px] bg-[#101624] rounded-[50%] border-[0.5px] border-gray-700 border-solid hover:bg-[#fec544] transition-all duration-200"></p>
                                 <div className=" w-[2px] md:h-[14.5rem] h-[20rem] bg-[#101624]"></div>
@@ -41,7 +41,7 @@ const Resume = () => {
                                 <div className="text-gray-500 pt-[1rem]">I learnt desktop publishing at Reliable Tutors. It is a computer fundamentals program that lasted a period of six months. I was tought the basic knowledge of computer such as typing and was also thought how to use some packages such as microsoft word, powerpoint and coreldraw.</div>
                             </div>
                         </div>
-                        <div className="switch flex items-top gap-[1rem] w-full h-full">
+                        <div className="switch flex items-top gap-[1rem] w-full h-full" data-aos="fade-up" data-aos-duration="1400" data-aos-offset="200" data-aos-easing="ease-in-out">
                             <div className="flex items-center flex-col">
                                 <p className="bulb w-[12px] h-[12px] bg-[#101624] rounded-[50%] border-[0.5px] border-gray-700 border-solid hover:bg-[#fec544] transition-all duration-200"></p>
                                 <div className=" w-[2px] md:h-[14.5rem] h-[19rem] bg-[#101624]"></div>
@@ -62,7 +62,7 @@ const Resume = () => {
                 </div>
                 <div className="pt-[2rem] w-full flex justify-start items-start gap-[2rem]">
                     <div className="pt-[0rem] w-full flex flex-col gap-[2rem]">
-                        <div className="switch flex items-top gap-[1rem] w-full h-full">
+                        <div className="switch flex items-top gap-[1rem] w-full h-full" data-aos="fade-down" data-aos-duration="1400" data-aos-offset="200" data-aos-easing="ease-in-out">
                             <div className="flex items-center flex-col">
                                 <p className="bulb w-[12px] h-[12px] bg-[#101624] rounded-[50%] border-[0.5px] border-gray-700 border-solid hover:bg-[#fec544] transition-all duration-200"></p>
                                 <div className=" w-[2px] md:h-[14.5rem] h-[17rem] bg-[#101624]"></div>
@@ -73,7 +73,7 @@ const Resume = () => {
                                 <div className="text-gray-500 pt-[1rem]">I am currently studing computer science in the university of lagos Akoka Yaba Lagos State Nigeria in the faculty of science in the department of computer science it is a five year course</div>
                             </div>
                         </div>
-                        <div className="switch flex items-top gap-[1rem] w-full h-full">
+                        <div className="switch flex items-top gap-[1rem] w-full h-full" data-aos="fade-left" data-aos-duration="1400" data-aos-offset="200" data-aos-easing="ease-in-out">
                             <div className="flex items-center flex-col">
                                 <p className="bulb w-[12px] h-[12px] bg-[#101624] rounded-[50%] border-[0.5px] border-gray-700 border-solid hover:bg-[#fec544] transition-all duration-200"></p>
                                 <div className=" w-[2px] md:h-[14.5rem] h-[19rem] bg-[#101624]"></div>
@@ -84,7 +84,7 @@ const Resume = () => {
                                 <div className="text-gray-500 pt-[1rem]">I attended Sanngo Senior Secondary School Agege lagos state. It is a public school with three department Science, Business, Humanity department. I was in the department of science and I attend the school from November 2019 to July 2022</div>
                             </div>
                         </div>
-                        <div className="switch flex items-top gap-[1rem] w-full h-full">
+                        <div className="switch flex items-top gap-[1rem] w-full h-full" data-aos="fade-up" data-aos-duration="1400" data-aos-offset="200" data-aos-easing="ease-in-out">
                             <div className="flex items-center flex-col">
                                 <p className="bulb w-[12px] h-[12px] bg-[#101624] rounded-[50%] border-[0.5px] border-gray-700 border-solid hover:bg-[#fec544] transition-all duration-200"></p>
                                 <div className=" w-[2px] md:h-[14.5rem] h-[20rem] bg-[#101624]"></div>

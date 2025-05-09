@@ -4,38 +4,38 @@ const Projects = () => {
         const blog = [
             {
                 id: 1,
-                title: "ICTopia Website",
-                image: "./images/logoICTopia.png",
+                title: "DrumKit",
+                image: "./images/drumkit.png",
                 link:"",
-                description: "Incubating, and Advocating for technology, through Tech Quizathon and ICT based competition"
+                description: "A website that is both keyboard and text sensitive where you can drum and make several beats with your device"
             },
             {
                 id: 2,
-                title: "DervacHub Website",
-                image: "./images/dervacHub.png",
-                link:"",
-                description: "A technical tranining program for tech enthusiast, to acquire skill across all technical feeds"
-            },
-            {
-                id: 3,
                 title: "Advice Generator",
                 image: "./images/adviceGenerator.png",
                 link:"",
                 description: "A website that generate random advice across differnt field of life, cool right!"
             },
             {
+                id: 3,
+                title: "ICTopia Website",
+                image: "./images/logoICTopia.png",
+                link:"",
+                description: "Incubating, and Advocating for technology, through Tech Quizathon and ICT based competition"
+            },
+            {
                 id: 4,
+                title: "DervacHub Website",
+                image: "./images/dervacHub.png",
+                link:"",
+                description: "A technical tranining program for tech enthusiast, to acquire skill across all technical feeds"
+            },
+            {
+                id: 5,
                 title: "Rock Paper Scissors",
                 image: "./images/rock-paper-scissor.png",
                 link:"",
                 description: "A game oriented website where you can play Rock Paper Scissors, it gives you access to the games rule before you start and records your scores"
-            },
-            {
-                id: 5,
-                title: "DrumKit",
-                image: "./images/drumkit.png",
-                link:"",
-                description: "A website that is both keyboard and text sensitive where you can drum and make several beats with your device"
             }
         ]
         useState(
@@ -45,7 +45,7 @@ const Projects = () => {
     return (
         <>
         <div id="projects" className="bg-[#0a101e] w-full p-[1rem] md:p-[2rem] overflow-x-hidden">
-            <div className="mx-auto md:w-[35rem] w-full h-fit  relative top-0 z-1">
+            <div className="mx-auto md:w-[35rem] w-full h-fit  relative top-0 z-1" data-aos="fade-up" data-aos-duration="1400" data-aos-offset="200" data-aos-easing="ease-in-out">
                 <h1 className="text-center md:text-[102px] text-[55px] text-[#101624] w-full font-bold h-full">PROJECTS</h1>
                 <div className="absolute inset-0 mx-auto z-2 md:mt-[2.3rem] mt-[1.3rem]">
                     <div className="w-fit mx-auto flex flex-col md:gap-[0.5rem] gap-[0.2rem] items-center">
