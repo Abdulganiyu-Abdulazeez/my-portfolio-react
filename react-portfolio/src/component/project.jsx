@@ -58,11 +58,11 @@ const Projects = () => {
             {blog.map((contents) => (
                 <div key={contents.id} className="blog md:w-[50vw] w-full h-full bg-white cursor-pointer ">
                     <img className="flex w-full h-full" src={contents.image} alt="" />
-                    <div className="info items-center gap-[2rem] flex-col justify-center text-center p-[2rem]">
+                    <a href={contents.link}><div className="info items-center gap-[2rem] flex-col justify-center text-center p-[2rem]">
                         <h1 className="text-[25px] text-[#0a101e]">{contents.title}</h1>
                         <p className="text-[#0a101e] text-[20px]">{contents.description}</p>
                         <a href={contents.link} className="rounded-full flex items-center justify-center w-[2rem] h-[2rem] border-[3px] border-[#0a101e]"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24"><path fill="#0a101e" d="M11 13H6q-.425 0-.712-.288T5 12t.288-.712T6 11h5V6q0-.425.288-.712T12 5t.713.288T13 6v5h5q.425 0 .713.288T19 12t-.288.713T18 13h-5v5q0 .425-.288.713T12 19t-.712-.288T11 18z"/></svg></a>
-                    </div>
+                    </div></a>
                 </div>
             ))}
             </div>
