@@ -4,38 +4,38 @@ const Projects = () => {
         const blog = [
             {
                 id: 1,
-                title: "DrumKit",
-                image: "./images/drumkit.png",
-                link:"",
-                description: "A website that is both keyboard and text sensitive where you can drum and make several beats with your device"
-            },
-            {
-                id: 2,
-                title: "Advice Generator",
-                image: "./images/adviceGenerator.png",
-                link:"",
-                description: "A website that generate random advice across differnt field of life, cool right!"
-            },
-            {
-                id: 3,
                 title: "ICTopia Website",
                 image: "./images/logoICTopia.png",
-                link:"",
+                link:"https://ictopia.vercel.app",
                 description: "Incubating, and Advocating for technology, through Tech Quizathon and ICT based competition"
             },
             {
-                id: 4,
+                id: 2,
                 title: "DervacHub Website",
                 image: "./images/dervacHub.png",
-                link:"",
+                link:"https://hub.dervac.com",
                 description: "A technical tranining program for tech enthusiast, to acquire skill across all technical feeds"
             },
             {
-                id: 5,
+                id: 3,
+                title: "Advice Generator",
+                image: "./images/adviceGenerator.png",
+                link:"https://advice-generator-app-by-azedkode.vercel.app/",
+                description: "A website that generate random advice across differnt field of life, cool right!"
+            },
+            {
+                id: 4,
                 title: "Rock Paper Scissors",
                 image: "./images/rock-paper-scissor.png",
-                link:"",
+                link:"https://rock-paper-scissors-by-azedcode.vercel.app/",
                 description: "A game oriented website where you can play Rock Paper Scissors, it gives you access to the games rule before you start and records your scores"
+            },
+            {
+                id: 5,
+                title: "DrumKit",
+                image: "./images/drumkit.png",
+                link:"https://drum-kit-by-vector.vercel.app/",
+                description: "A website that is both keyboard and text sensitive where you can drum and make several beats with your device"
             }
         ]
         useState(
@@ -61,7 +61,7 @@ const Projects = () => {
                     <div className="info items-center gap-[2rem] flex-col justify-center text-center p-[2rem]">
                         <h1 className="text-[25px] text-[#0a101e]">{contents.title}</h1>
                         <p className="text-[#0a101e] text-[20px]">{contents.description}</p>
-                        <a href="#" className="rounded-full flex items-center justify-center w-[2rem] h-[2rem] border-[3px] border-[#0a101e]"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24"><path fill="#0a101e" d="M11 13H6q-.425 0-.712-.288T5 12t.288-.712T6 11h5V6q0-.425.288-.712T12 5t.713.288T13 6v5h5q.425 0 .713.288T19 12t-.288.713T18 13h-5v5q0 .425-.288.713T12 19t-.712-.288T11 18z"/></svg></a>
+                        <a href={contents.link} className="rounded-full flex items-center justify-center w-[2rem] h-[2rem] border-[3px] border-[#0a101e]"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24"><path fill="#0a101e" d="M11 13H6q-.425 0-.712-.288T5 12t.288-.712T6 11h5V6q0-.425.288-.712T12 5t.713.288T13 6v5h5q.425 0 .713.288T19 12t-.288.713T18 13h-5v5q0 .425-.288.713T12 19t-.712-.288T11 18z"/></svg></a>
                     </div>
                 </div>
             ))}
