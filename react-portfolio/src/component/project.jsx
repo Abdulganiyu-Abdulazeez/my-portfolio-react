@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 
 const Projects = () => {
-        const blog = [
+        const [blog, useBlog] = useState([
             {
                 id: 1,
                 title: "ICTopia Website",
@@ -37,10 +37,7 @@ const Projects = () => {
                 link:"https://drum-kit-by-vector.vercel.app/",
                 description: "A website that is both keyboard and text sensitive where you can drum and make several beats with your device"
             }
-        ]
-        useState(
-            console.log(blog)
-        )
+        ]);
         
     return (
         <>
