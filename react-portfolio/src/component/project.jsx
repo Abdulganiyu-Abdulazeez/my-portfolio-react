@@ -45,7 +45,7 @@ const Projects = () => {
     return (
         <>
         <div id="projects" className="bg-[#0a101e] w-full p-[1rem] md:p-[2rem] overflow-x-hidden">
-            <div className="mx-auto md:w-[35rem] w-full h-fit  relative top-0 z-1">
+            <div className="mx-auto md:w-[35rem] w-full h-fit  relative top-0 z-1" data-aos="fade-up" data-aos-duration="1400" data-aos-offset="200" data-aos-easing="ease-in-out">
                 <h1 className="text-center md:text-[102px] text-[55px] text-[#101624] w-full font-bold h-full">PROJECTS</h1>
                 <div className="absolute inset-0 mx-auto z-2 md:mt-[2.3rem] mt-[1.3rem]">
                     <div className="w-fit mx-auto flex flex-col md:gap-[0.5rem] gap-[0.2rem] items-center">

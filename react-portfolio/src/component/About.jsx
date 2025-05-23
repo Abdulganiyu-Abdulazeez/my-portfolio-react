@@ -1,7 +1,7 @@
 const About = () => {
     return ( <>
     <div id="about" className="bg-[#0a101e] w-full p-[1rem] md:p-[2rem]">
-        <div className="mx-auto md:w-[35rem] w-full h-fit  relative top-0 z-1">
+        <div className="mx-auto md:w-[35rem] w-full h-fit  relative top-0 z-1" data-aos="fade-up" data-aos-duration="1400" data-aos-offset="200" data-aos-easing="ease-in-out">
             <h1 className="text-center md:text-[102px] text-[55px] text-[#101624] w-full font-bold h-full">ABOUT ME</h1>
             <div className="absolute inset-0 mx-auto z-2 md:mt-[2.3rem] mt-[1.3rem]">
                 <div className="w-fit mx-auto flex flex-col md:gap-[0.5rem] gap-[0.2rem] items-center">
@@ -11,8 +11,8 @@ const About = () => {
             </div>
         </div>
         <div className="mt-[2rem] w-full flex items-center justify-between gap-[2rem] md:gap-0 md:flex-row flex-col">
-            <img className="w-full md:w-[50%] md:h-[100vh] h-[60vh] z-1 static" src="./images/ghibli.png" alt="" />
-            <div className="w-full md:w-[45%] flex flex-col gap-[1.2rem]">
+            <img className="w-full md:w-[50%] md:h-[100vh] h-[60vh] z-1 static" src="./images/ghibli.png" alt="" data-aos="fade-right" data-aos-duration="1400" data-aos-offset="200" data-aos-easing="ease-in-out" />
+            <div className="w-full md:w-[45%] flex flex-col gap-[1.2rem]" data-aos="fade-left" data-aos-duration="1400" data-aos-offset="200" data-aos-easing="ease-in-out">
                 <h1 className="lg:text-[36px] md:text-[28px] text-[26px] text-white leading-[2.5rem]">Hi There! I'm Abdulganiyu Abdulazeez</h1>
                 <h2 className="lg:text-[25px] text-[20px] text-[#fec544]">Website Developer</h2>
                 <p className="text-gray-400 lg:text-[18px] text-[15px]">I am website developer with strong focus in front end development. Website development create user interface for website as it makes the website interactive.</p>
